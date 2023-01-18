@@ -1,1 +1,1 @@
-# BC-DataVis-with-D3JS
+# BC-DataVis-with-D3.js
