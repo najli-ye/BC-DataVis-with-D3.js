@@ -1,0 +1,15 @@
+.worldCups {
+    fill : lightsalmon;
+    fill-opacity: 0.5;
+    stroke-width: 1px;
+    stroke: lightcoral ;
+}
+
+.axisLabel {
+    font-family: Arial;
+    font-style:italic;
+}
+
+.dataLabel {
+    font-family: Arial;
+}
