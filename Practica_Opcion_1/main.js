@@ -33,7 +33,7 @@ const scaleY = d3.scaleLinear().range([height - margin.top - margin.bottom, 0])
 // Defino los ejes x,y
 const xAxis = d3.axisBottom().scale(scaleX)
 const yAxis = d3.axisLeft().scale(scaleY)
-            //.ticks(5)
+
 
 // Importo el dataset
 d3.csv("WorldCup.csv").then(data => {
@@ -51,8 +51,8 @@ d3.csv("WorldCup.csv").then(data => {
         d.values = +d.values.length
     })
 
-    // Ordeno los resultados por nº de mundiales ganados
-    sortedDataNest = dataNest.slice().sort((b,a) => d3.descending(b.values, a.values))
+    // Ordeno en orden descendiente, los resultados por nº de mundiales ganados
+    let sortedDataNest = dataNest.slice().sort((b,a) => d3.descending(b.values, a.values))
 
     // Etiquetas en los ejes x, y:
     const xLabel = elementsGroup.append("text").text("Country")
