@@ -1,0 +1,71 @@
+.axisLabel {
+    font-family: arial;
+    font-size: 16px;
+}
+
+.dataLabel {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.line {
+    stroke-width: 1.5px ;
+    stroke: black;
+    fill: none;
+}
+
+#popLabel {
+    font-family: arial;
+    font-size: medium;
+    fill:blueviolet;
+    opacity: 100;
+}
+
+.GiseleBündchen {
+    fill: lightskyblue;
+    fill-opacity: 0.5;
+    stroke: grey;
+}
+
+.BarRafaeli {
+    fill: lightseagreen;
+    fill-opacity: 0.5;
+    stroke: grey;
+}
+
+.BlakeLively {
+    fill: lightcoral;
+    fill-opacity: 0.5;
+    stroke: grey;
+}
+
+.ErinHeatherson {
+    fill: lightgreen;
+    fill-opacity: 0.5;
+    stroke: grey;
+}
+
+.ToniGarrn {
+    fill: lightyellow;
+    fill-opacity: 0.5; 
+    stroke: grey; 
+}
+
+.KellyRohrbach {
+    fill: lightslategray;
+    fill-opacity: 0.5;  
+    stroke: grey;
+}
+
+.NinaAgdal {
+    fill: lightblue;
+    fill-opacity: 0.5;
+    stroke: grey;
+}
+
+.CamilaMorrone {
+    fill: lightpink;
+    fill-opacity: 0.5;
+    stroke: grey;
+}
+
